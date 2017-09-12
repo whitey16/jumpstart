@@ -3,7 +3,21 @@ html {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
 }
-
+img {
+  width: 100%;
+  opacity: 0.7;
+}
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.container-fluid p {
+  margin-top: 10px;
+}
 
 /*navbar*/
 nav {
@@ -53,6 +67,8 @@ nav {
   cursor: pointer;
   width: 11.4rem;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  background-color: #399bd1;
+  text-align: center;
 }
 .btn-primary:hover {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
@@ -62,3 +78,43 @@ nav {
 }
 
 /*featured project*/
+.featured-project .image-container {
+  margin-top: 20px;
+}
+.featured-project h2 {
+  margin-bottom: 0;
+  color: #399bd1;
+}
+.product-categories h3 {
+  color: #399bd1;
+}
+.product-categories ul {
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/*projects*/
+.projects h2 {
+  color: #399bd1;
+}
+
+/*having trouble footer */
+.having-trouble .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 42rem;
+  margin: auto;
+  text-align: center;
+}
+.having-trouble {
+  padding: 5.2rem 0;
+  background-color: #f3f3f3;
+}
+.having-trouble strong {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.having-trouble p {
+  margin: 1.4rem 0;
+}
